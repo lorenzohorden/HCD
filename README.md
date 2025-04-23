@@ -17,8 +17,15 @@ Ik heb de eerste dag deze week een codepen uitgewerkt met wat effecten die ik wi
 ### testresultaten
 
 - Uit de test kwam dat Darice de geweersschoten niet erg interessant vond, omdat die meestal in de film worden laten zien. Het is dus blijkbaar belangrijk om te kijken of geluid alleen op de achtergrond is, want dan is het niet nodig om het te laten zien met extra effecten. Ook vond Darice het schoteffect irritant, wat goed is om te onthouden om een irritant geluid te visualiseren.
-- Het zweleffect vond Darice interessant, ze zei dat het een gevoel gaf alsof de muziek luider word. Dit kan ik dus gebruiken om spanning of volume in muziek aan te geven, die twee gaan overigens vaak gepaard.
+- Het zwel effect vond Darice interessant, ze zei dat het een gevoel gaf alsof de muziek luider word. Dit kan ik dus gebruiken om spanning of volume in muziek aan te geven, die twee gaan overigens vaak gepaard.
 
 Na de test ben ik verder gegaan met het voorbereiden op de volgende test, ik wilde op twee dingen focussen:
 1. ritme van muziek aangeven - dit wilde ik doen door een animatie op het ritme van de muziek te 
-2. 
+2. kijken hoe ik de tekst allemaal kan laten zien en wat Darice fijn vindt
+3. kijken welke tekst en schermgrootte het beste zijn voor darice
+
+
+## week 3
+
+Deze week heb ik een aantal codepennetjes gemaakt waar ik mee ben gaan testen:
+
