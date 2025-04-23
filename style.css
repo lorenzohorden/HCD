@@ -1,0 +1,122 @@
+body {
+    height: 100vh;
+    background-color: white;
+}
+
+#subtitles {
+    display: flex;
+    color: white;
+    height: 5em;
+
+    .person {
+        &::after {
+            content: ":";
+            display: block;
+        }
+    }
+
+    .person, .text {
+        opacity: 0;
+        position: absolute;
+        animation: var(--duration) --show-text;
+        animation-delay: var(--delay);
+        
+    }
+}
+
+@keyframes --show-text {
+    0%, 100% {opacity: 1;}
+}
+
+
+/* **********************************************
+Basic mechanics
+Hide all paragraphs by default
+Show them when they receive the class 'on'
+Hide them when they receive the class 'off'
+Feel free to adjust the defaults to your needs.
+********************************************** */
+#closed-captions p {
+	opacity: 0;
+	transition: .05s;
+	position: absolute;
+}
+#closed-captions .on {
+	opacity: 1;
+}
+#closed-captions .off {
+	transition: .2s;
+	opacity: 0;
+}
+.thomas {
+    color: purple;
+}
+
+
+/* delaying words */
+#closed-captions p:nth-of-type(1) {
+    & span:nth-of-type(n + 3){
+        opacity: 0;
+    }
+
+    &.on span:nth-of-type(n + 3) {
+        opacity: 1;
+        transition: 0s .5s;
+    }
+}
+
+
+/* **********************************************
+Sounds.
+	You can style the whole body, or you can 
+	style anything within the body the moment
+	a sound starts.
+*********************************************  */
+
+/* The moment the class .sound1 is added to the body, the background is yellow */
+.sound1 {
+    animation: .475s song1 infinite;
+}
+
+@keyframes song1 {
+    0% {background-color: #eb5834;}
+    100% {background-color: #ed7458;}
+}
+
+/* The moment the class .sound1 is added to the body, the movie makes a turn */
+.sound1 #video-mask {
+	box-shadow: 2em 2em 2em olivedrab;
+}
+
+.sound2 {
+    animation: none;
+}
+
+
+/* **********************************************
+Basic layout.
+	Place the video in the center of the page.
+*********************************************  */
+
+body {
+	display: grid;
+	height: 100vh;
+	margin: 0;
+	justify-content: center;
+}
+#video-container {
+	margin: auto;
+}
+#video-mask {
+	aspect-ratio: 240.5/100;
+	display: grid;
+	overflow: hidden;
+	align-content: center;
+	transition: 1s;
+}
+
+iframe {
+	width: 80vw;
+	height: 53.33333333vw;
+	margin-top: -0.35vw;
+}
