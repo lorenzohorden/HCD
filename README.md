@@ -65,3 +65,21 @@ Voor de volgende tekst wil ik toch kijken naar een interface waarbij je kleur ka
 Ik heb wat dingen geprobeerd te coderen, maar dat koste te veel tijd, dus ik heb gekozen om een voorbeeld te maken in Figma en die te testen:
 
 <img width="386" alt="image" src="https://github.com/user-attachments/assets/98774bce-b59b-413a-9eb7-3615f36614a9" />
+
+
+## week 4
+
+Ik heb wat verder gewerkt aan de code voor mijn Figma prototype voor de test, dit was heel kort want er was maar een uur tijd.
+
+### testresultaten
+
+Er kwam uit dat het te veel moeite is om voor een film allemaal instellingen aan te passen, het is belangrijk dat je hem meteen aan kunt zetten en zo snel mogelijk kan kijken. Dat vond ik jammer, want dit leek me een goede uitdaging
+
+Ik ben nu van plan om een aantal specifieke scenario's uit te werken die veel voorkomen in films alleen met geluid:
+
+1. voetstappen buiten beeld
+2. deuren die kraken
+3. wind die waait
+4. hartslag
+
+Ik wil deze voorbeelden uitwerken met een effecten en zonder tekst.
