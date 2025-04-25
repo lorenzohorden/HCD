@@ -29,3 +29,31 @@ Na de test ben ik verder gegaan met het voorbereiden op de volgende test, ik wil
 
 Deze week heb ik een aantal codepennetjes gemaakt waar ik mee ben gaan testen:
 
+[music test 1](https://codepen.io/lorenzo_03/pen/MYYbzwv)
+[music test 2](https://codepen.io/lorenzo_03/pen/PwwbxPq)
+[music test 3](https://codepen.io/lorenzo_03/pen/MYYmoLo)
+[music test 4](https://codepen.io/lorenzo_03/pen/mydZmKJ)
+
+[text test 1](https://codepen.io/lorenzo_03/pen/Byagwwj)
+[text test 2](https://codepen.io/lorenzo_03/pen/bNGPooe)
+[text test 3](https://codepen.io/lorenzo_03/pen/QwWXqqd)
+[text test 4](https://codepen.io/lorenzo_03/pen/pvoXWWw)
+
+[size test](https://codepen.io/lorenzo_03/pen/MYYmoZo)
+
+
+### testresultaten
+
+1. Darice vind deze tekst- en schermgrootte het fijnste: screen height: 85vh; font-size: 18px;
+2. Beweging op de achtergrond leidt af, dus het is beter om met kleur en opacity de muziek na te bootsen.
+3. Kleur bij text voegt niks toe en het is bijna altijd duidelijk wie wat zegt dus namen zijn niet altijd nodig.
+4. Ook kwam uit een test van iemand anders dat het beter is om tekst niet helemaal te centreren en ook niet helemaal links uit te lijnen.
+
+
+### voorbereiding voor volgende test
+
+Voor de volgende tekst wil ik toch kijken naar een interface waarbij je kleur kan koppelen aan karakters van de film, dat kan je natuurlijk niet voor elk persoon doen vanwege spoilers, maar bij de hoofdpersonen denk ik dat het een goed idee is.
+
+Ik heb wat dingen geprobeerd te coderen, maar dat koste te veel tijd, dus ik heb gekozen om een voorbeeld te maken in Figma en die te testen:
+
+<img width="386" alt="image" src="https://github.com/user-attachments/assets/98774bce-b59b-413a-9eb7-3615f36614a9" />
