@@ -30,14 +30,22 @@ Na de test ben ik verder gegaan met het voorbereiden op de volgende test, ik wil
 Deze week heb ik een aantal codepennetjes gemaakt waar ik mee ben gaan testen:
 
 [music test 1](https://codepen.io/lorenzo_03/pen/MYYbzwv)
+
 [music test 2](https://codepen.io/lorenzo_03/pen/PwwbxPq)
+
 [music test 3](https://codepen.io/lorenzo_03/pen/MYYmoLo)
+
 [music test 4](https://codepen.io/lorenzo_03/pen/mydZmKJ)
 
+
 [text test 1](https://codepen.io/lorenzo_03/pen/Byagwwj)
+
 [text test 2](https://codepen.io/lorenzo_03/pen/bNGPooe)
+
 [text test 3](https://codepen.io/lorenzo_03/pen/QwWXqqd)
+
 [text test 4](https://codepen.io/lorenzo_03/pen/pvoXWWw)
+
 
 [size test](https://codepen.io/lorenzo_03/pen/MYYmoZo)
 
