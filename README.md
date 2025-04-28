@@ -84,3 +84,15 @@ Ik ben nu van plan om een aantal specifieke scenario's uit te werken die veel vo
 5. een piep nadat er geschoten wordt
 
 Ik wil deze voorbeelden uitwerken met visuele effecten en het liefste zo min mogelijk tekst. Ik ga voor elk van deze geluiden een test maken en die langs familileden halen (mijn oma is slecht horend dus die lijkt me het meest geschikt hiervoor)
+
+
+## week 5
+
+hier zijn de voorbeelden van de uitgewerkte animaties:
+
+**voetstappen**
+
+![image](https://github.com/user-attachments/assets/9976973d-9019-4ef0-8428-a723a652ad89)
+
+
+**wind**
