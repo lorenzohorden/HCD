@@ -92,7 +92,8 @@ hier zijn de voorbeelden van de uitgewerkte animaties:
 
 **voetstappen**
 
-![image](https://github.com/user-attachments/assets/9976973d-9019-4ef0-8428-a723a652ad89)
+![footsteps](https://github.com/user-attachments/assets/f53c5641-4639-4f4e-b703-6dd08b162cdd)
+
 
 
 **wind**
