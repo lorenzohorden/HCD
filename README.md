@@ -78,10 +78,9 @@ Er kwam uit dat het te veel moeite is om voor een film allemaal instellingen aan
 Ik ben nu van plan om een aantal specifieke scenario's uit te werken die veel voorkomen in films alleen met geluid:
 
 1. voetstappen buiten beeld
-2. deuren die kraken
-3. wind die waait
-4. hartslag
-5. een piep nadat er geschoten wordt
+2. wind die waait
+3. hartslag
+4. een piep nadat er geschoten wordt
 
 Ik wil deze voorbeelden uitwerken met visuele effecten en het liefste zo min mogelijk tekst. Ik ga voor elk van deze geluiden een test maken en die langs familileden halen (mijn oma is slecht horend dus die lijkt me het meest geschikt hiervoor)
 
@@ -95,7 +94,32 @@ hier zijn de voorbeelden van de uitgewerkte animaties:
 ![footsteps](https://github.com/user-attachments/assets/f53c5641-4639-4f4e-b703-6dd08b162cdd)
 
 
-
 **wind**
 
 [wind-animation-test](https://codepen.io/lorenzo_03/pen/vEEWyaE?editors=0010)
+
+
+**hartslag**
+
+[heartbeat-animation-test](https://codepen.io/lorenzo_03/pen/ByyxaGz?editors=1100)
+
+
+**piep na schoten**
+
+[gunshot-animation-test](https://codepen.io/lorenzo_03/pen/MYYGWRV?editors=0100)
+
+
+### extra test
+
+Om zeker te zijn dat mijn ideeën werken heb ik aan mijn slechthorende oma de vier bovenstaande tests laten zien zonder geluid en aan haar gevraagd of ze het effect vond werken en wat het onduidelijk maakt als het niet werkt. Dit zijn de resultaten:
+
+**voetstappen**
+
+
+**wind**
+
+
+**hartslag**
+
+
+**piep na schoten**
