@@ -133,3 +133,20 @@ Het effect op de iframe is niet echt duidelijk, het wit op de achtergrond wel. H
 ### aanpassingen na de feedback
 
 Ik heb de voetstappen zo gelaten, die zijn vrij duidelijk hoe ze nu zijn. De wind heb ik oneindig laten doorgaan, zodat ik het kan laten doorgaan zolang als het waai geluid is. De hartslag vond mijn oma te snel, maar ik denk dat zolang ik het tempo van het geluid aanhoud dat dat niet een probleem is. De achtergrond van de piep was duidelijk, maar het is misschien slim als ik de brightness wat hoger maak, zodat het effect op de iframe wat sterker word. Ook vond mijn oma het effect irritant, wat een goede uitkomst is want de piep is ook irritant dus ik boots het geluid goed na.
+
+
+## oplevering
+
+Uiteindelijk heb ik een aantal dingen gedaan om deze film een betere beleving te maken voor Darice:
+
+1. Ik heb de film voorzien van ondertitelingen (tot de eerste minuut wegens tijd tekort)
+2. Ik heb het tempo van muziek aangegeven aan de hand van een animatie met kleur op de achtergrond
+3. Ik heb extra geluiden zoals voetstappen, wind en hartslag toegevoegd op een visuele manier om het gevoel wat meer over te brengen dan wanneer je alleen tekst gebruikt.
+
+Ik heb dit allemaal aan Darice aangepast door verschillende tests te doen over wat voor haar wel en niet belangrijk is en ik ben uiteindelijk hierop uigekomen.
+
+### als ik meer tijd had...
+
+Ik heb bij dit project een hoop tijd verloren aan ziek zijn en het duidelijk krijgen van wat belangrijk is voor de opdracht in plaats van voor Darice, achteraf had ik meer tijd willen steken in mijn testen en meer concepten willen bedenken voor het visualiseren van kleine geluidjes op de achtergrond die je niet ziet maar wel hoort. Ik vond dat ook het leukste van de opdracht dus daar was ik graag mee doorgegaan. 
+
+Ook had ik wat meer tijd willen steken in het netjes maken van mijn code, ik weet dat dit niet per se een vak is waar code erg belangrijk is, maar ik vind het voor mezelf wel belangrijk om een overzichtelijke code te schrijven waar ik later nog dingen uit kan terugvinden als dat nodig is.
