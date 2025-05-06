@@ -115,11 +115,21 @@ Om zeker te zijn dat mijn ideeën werken heb ik aan mijn slechthorende oma de vi
 
 **voetstappen**
 
+Het zijn duidelijk voetstappen, voegt een leuke animatie toe aan de film en maakt het duidelijk van welke kant het geluid komt.
 
 **wind**
 
+De wind waait maar 1 keer, ook lijkt het meer op vallende sterren. Het is wel handig om te weten hoelang het geluid doorgaat.
 
 **hartslag**
 
+Het is duidelijk dat het hart klopt, het klopt alleen erg snel.
 
 **piep na schoten**
+
+Het effect op de iframe is niet echt duidelijk, het wit op de achtergrond wel. Het effect is irritant.
+
+
+### aanpassingen na de feedback
+
+Ik heb de voetstappen zo gelaten, die zijn vrij duidelijk hoe ze nu zijn. De wind heb ik oneindig laten doorgaan, zodat ik het kan laten doorgaan zolang als het waai geluid is. De hartslag vond mijn oma te snel, maar ik denk dat zolang ik het tempo van het geluid aanhoud dat dat niet een probleem is. De achtergrond van de piep was duidelijk, maar het is misschien slim als ik de brightness wat hoger maak, zodat het effect op de iframe wat sterker word. Ook vond mijn oma het effect irritant, wat een goede uitkomst is want de piep is ook irritant dus ik boots het geluid goed na.
