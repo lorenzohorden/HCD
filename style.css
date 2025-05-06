@@ -1,6 +1,6 @@
 body {
     height: 100vh;
-    background-color: white;
+    background-color: black;
 }
 
 #subtitles {
@@ -36,10 +36,19 @@ Show them when they receive the class 'on'
 Hide them when they receive the class 'off'
 Feel free to adjust the defaults to your needs.
 ********************************************** */
+#closed-captions {
+    position: relative;
+    left: 20em;
+    top: 0em;
+}
+
 #closed-captions p {
 	opacity: 0;
 	transition: .05s;
 	position: absolute;
+    color: white;
+    font-size: 18px;
+    letter-spacing: .5px;
 }
 #closed-captions .on {
 	opacity: 1;
@@ -48,8 +57,9 @@ Feel free to adjust the defaults to your needs.
 	transition: .2s;
 	opacity: 0;
 }
-.thomas {
-    color: purple;
+
+#down {
+    top: -18px;
 }
 
 
@@ -73,7 +83,7 @@ Sounds.
 	a sound starts.
 *********************************************  */
 
-/* The moment the class .sound1 is added to the body, the background is yellow */
+/* upbeat country song */
 .sound1 {
     animation: .475s song1 infinite;
 }
@@ -83,15 +93,123 @@ Sounds.
     100% {background-color: #ed7458;}
 }
 
-/* The moment the class .sound1 is added to the body, the movie makes a turn */
-.sound1 #video-mask {
-	box-shadow: 2em 2em 2em olivedrab;
-}
-
+/* turn off song animation */
 .sound2 {
     animation: none;
 }
 
+/* show footprints walking */
+#footprint {
+    display: none;
+    transition: none;
+    filter: invert(1);
+}
+
+.sound2 #footprint {
+    display: block;
+    position: absolute;
+    left: -3em;
+    top: 30em;
+    transform: 
+        rotate(-90deg)
+        scale(.2);
+    animation: 2s animate-steps infinite;
+}
+
+.sound3 #footprint {
+    display: none;
+}
+
+.sound4 iframe {
+    animation: 1s heartbeat infinite;
+}
+
+.sound5 iframe {
+    animation: none;
+}
+
+.sound6 {
+    .wind {
+        background-color: white;
+        position: absolute;
+        z-index: 0;
+    }
+}
+
+.sound7 {
+    .wind {
+        animation: none;
+        display: none;
+    }
+}
+
+.sound8 {
+    animation: background 10s linear;
+    iframe {
+        animation: effect 10s linear;
+    }
+}
+
+.sound9 {
+    animation: none;
+    iframe {
+        animation: none;
+    }
+}
+
+@keyframes animate-steps {
+    0%, 19% {
+        left: -3em;
+        top: 30em;
+        transform: rotate(-90deg) scale(.2);
+    }
+    20%, 39% {
+        left: -1em;
+        top: 28em;
+        transform: rotate(-90deg) scale(.2)
+            scaleY(-1);
+    }
+    40%, 59% {
+        left: -3em;
+        top: 26em;
+        transform: rotate(-90deg) scale(.2);
+    }
+    60%, 79% {
+        left: -1em;
+        top: 24em;
+        transform: rotate(-90deg) scale(.2)
+            scaleY(-1);
+    }
+    80%, 100% {
+        left: -3em;
+        top: 22em;
+        transform: rotate(-90deg) scale(.2);
+    }
+}
+
+@keyframes heartbeat {
+    0%, 20%, 40%, 100% {scale: 1;}
+    10%, 30% {scale: 1.01;}
+}
+
+@keyframes blow {
+    0% {transform: translate(150vw);}
+    100% {transform: translate(-50vw);}
+}
+
+@keyframes background {
+    0%, 100% {background: black;}
+    80% {background: white;}
+}
+
+@keyframes effect {
+    0%, 100% {
+      filter: saturate(1) brightness(1);
+    }
+    80% {
+      filter: saturate(2) brightness(5);
+    }
+  }
 
 /* **********************************************
 Basic layout.
@@ -105,13 +223,16 @@ body {
 	justify-content: center;
 }
 #video-container {
+    height: 85vh;
 	margin: auto;
 }
 #video-mask {
+    height: 100%;
 	aspect-ratio: 240.5/100;
 	display: grid;
 	overflow: hidden;
 	align-content: center;
+    justify-content: center;
 	transition: 1s;
 }
 
@@ -119,4 +240,5 @@ iframe {
 	width: 80vw;
 	height: 53.33333333vw;
 	margin-top: -0.35vw;
+    z-index: 1;
 }

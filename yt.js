@@ -77,7 +77,7 @@ function pTimes(num,startT,endT,curT) {
 		curP.classList.remove('on');
 	}
 }
-
+let isPlaying = false
 function sTimes(num,soundStarts,curT) {
 	var soundClass = 'sound' + num;
 	var b = document.querySelector('body');
@@ -86,6 +86,11 @@ function sTimes(num,soundStarts,curT) {
 	}
 	if( curT < soundStarts && b.classList.contains(soundClass)) {
 		b.classList.remove(soundClass);
+	}
+	if(curT > 59 && isPlaying == false){
+		windAnimation()
+		isPlaying = true
+		console.log("isplaying")
 	}
 }
 
@@ -137,3 +142,32 @@ function sTimes(num,soundStarts,curT) {
 	}
 })();
 
+function windAnimation() {
+	for (let i = 0; i < 30; i++) {
+		const width = Math.random() * 100;
+		const height = Math.random() * 3;
+		const top = Math.random() * 100;
+		const duration = Math.round((Math.random() * 2 + 3) * 10) / 10;
+		const delay = Math.round(Math.random() * 10) / 10;
+		
+		const wind = document.createElement("div");
+		wind.classList.add("wind");
+		wind.style.width = `${width}px`;
+		wind.style.height = `${height}px`;
+		wind.style.top = `${top}%`;
+		wind.style.transform = "translate(150vw)"
+		
+		// animation
+		wind.style.animationName = "blow"
+		wind.style.animationDuration = `${duration}s`
+		wind.style.animationDelay = `${delay}s`
+		wind.style.animationTimingFunction = "linear";
+		wind.style.animationFillMode = "forwards"
+		wind.style.animationIterationCount = "infinite"
+		
+		wind.id = `stipe-${i}`;
+	
+		console.log(`duration: ${duration}  delay: ${delay}.`)
+		document.body.appendChild(wind);
+	}
+}
